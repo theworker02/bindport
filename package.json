@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/bindport",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bind filesystem port paths across POSIX and Windows conventions.",
+  "bin": {
+    "bindport": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/bindport.git"
+  },
+  "homepage": "https://theworker02.github.io/bindport/",
+  "keywords": [
+    "bind",
+    "port",
+    "path",
+    "cli",
+    "toolkit"
+  ]
+}
